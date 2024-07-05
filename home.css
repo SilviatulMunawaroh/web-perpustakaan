@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.subscribe-btn {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.main-content {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.book-categories {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category {
+  background-color: #dcdcdc;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.popular-books {
+  margin: 20px 0;
+
+}
+
+.popular-books img{
+    width: 60%;
+}
+
+.book-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-item {
+  text-align: center;
+}
+
+.bestsellers {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.bestsellers-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.chat {
+  background-color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.chat-header {
+  text-align: center;
+}
+
+.chat-content {
+  flex-grow: 1;
+  margin: 20px 0;
+}
+
+.chat-message {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-message.bot {
+  background-color: #bdc3c7;
+}
+
+.chat-message.user {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.chat-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
